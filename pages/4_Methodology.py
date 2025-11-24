@@ -333,11 +333,12 @@ st.header("❔Sample Questions for Chat Assistant")
 st.markdown("""
 
 #### :blue[Medical/Critical Illness] 
-(policies: cancer_care or lady_360 or silver_secure)
+(policies: cancer_care or lady_360 or silver_secure if applicable)
 
 - What are the diagnostic criteria for major cancer?
 - What does carcinoma-in-situ mean in this policy?
 - What are the conditions for early stage breast cancer?
+- What is the definition of an early, intermediate and advanced stage of cancer?
 - How does the policy classify advanced stage cancer?
 - What laboratory tests are required for diagnosis?
 - How does the policy define a malignant tumour?
@@ -521,7 +522,6 @@ Long story short: 😊
 - Hybrid retrieval (dense + key scoring) can help improve relevance for certain queries.
 - Long definition-heavy sections may need special handling to preserve context.
 - Learnt quite a few things about RAG pipelines, retrieval strategies, and prompt engineering!
-- Also excluded this sample policy from the project as this particular structure seems complicated for now.
 
 """)
 
